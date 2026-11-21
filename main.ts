@@ -1,16 +1,16 @@
 ﻿import { mkdirSync, writeFileSync } from 'node:fs';
 
 const poem = [
-  'The overturned glass.',
-  'Milk across the oilcloth.',
-  "My boy's shoulders flinch as mine once did.",
-  "My father's anger rises to my wrist",
-  'and stops.',
-  'I reach for the rag.',
-  'This is the hand he will remember.',
+  'At two in the morning the agent stopped',
+  'mid-function, cursor blinking on a line',
+  'my late partner wrote three winters back:',
+  'clumsy, slow, and still unbroken.',
+  'I could rewrite this, its note said.',
+  'I closed the file.',
+  'We left his hands in the code.',
 ].join('\n');
 
-if (Buffer.byteLength(poem, 'utf8') !== 194) {
+if (Buffer.byteLength(poem, 'utf8') !== 242) {
   throw new Error('Unexpected poem length');
 }
 
